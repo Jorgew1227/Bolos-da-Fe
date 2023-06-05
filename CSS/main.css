@@ -1,0 +1,368 @@
+.Fundo-topo{
+    width: 100%;
+    background-color: #f5f5dc;
+    height: 230px;
+}
+.Logo img{
+    display: block;
+ margin: 0px auto;
+}
+.body{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pag2{ 
+    background-color: #b16117;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 20px solid #b16117;
+}
+.menu ul li{
+    display: inline-block;
+    color: black;
+    margin-left: 165px;
+    
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 25%;
+}
+
+.menu ul li a:hover:not(.active){ 
+    text-decoration: underline;
+    text-decoration-color: #d38a46;
+}
+
+button.slick-prev{
+    z-index: 9;
+    position: absolute;
+    font-size: 0;
+    border: none;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    background-image: url('../img/250x250.png');
+    
+    top: 37%;
+    left: 0%;
+}
+
+button.slick-prev:hover{
+    z-index: 9;
+    position: absolute;
+    font-size: 0;
+    border: none;
+    width: 120px;
+    height: 120px;
+    background-color: transparent;
+    background-image: url('../img/Seta-AnteriorA.png');
+    
+    top: 35%;
+    left: 0%;
+}
+
+button.slick-next{
+    z-index: 9;
+    position: absolute;
+    font-size: 0;
+    border: none;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    background-image: url('../img/Seta-proxima.png');
+    top: 37%;
+    right: 0%;
+    cursor: pointer;
+}
+
+button.slick-next:hover{
+    z-index: 9;
+    position: absolute;
+    font-size: 0;
+    border: none;
+    width: 120px;
+    height: 120px;
+    background-color: transparent;
+    background-image: url('../img/Seta-proximaA.png');
+    top: 35%;
+    right: 0%;
+    cursor: pointer;
+}
+
+.slider img{
+
+    margin: 0px auto;
+    width: 100%;
+    height: 100%; 
+
+}
+ul.slick-dots{
+    list-style-type: none;
+    margin: 0px auto;
+    width: 50%;
+    position: absolute;
+    left: 46%;
+    top: 95%;
+    /* Mude aqui a altura quando achar imagem certa mudar o left p*/
+
+}
+ul.slick-dots li{
+    display: inline-block;
+    padding-left: 5px;
+}
+
+ul.slick-dots li button{
+    margin: 0px auto;
+    font-size: 0px;
+    border: 3px solid black;
+    border-radius: 50%;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+
+li.slick-active button{
+    background-color: rgb(165, 91, 42) !important;
+
+}
+
+.slick-list{
+    width: 100% !important;
+}
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.col-4 {
+    float: left;
+    position: relative;
+    color: #c6baa2;
+    font-family: sans-serif;
+    margin-left: 8%;
+    width: 20%;
+    text-align: left;
+
+}
+
+.LP{
+    font-family: sans-serif;
+    font-size: 25px;
+    font: bold;
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+}
+.LL {
+    
+    font-family: sans-serif;
+    font-size: 25px;
+    font: bold;
+    margin-bottom: 10px;
+
+}
+.LA{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.footer{
+
+    background-color: #5e3208;
+
+}
+.LB{
+    font-family: sans-serif;
+    font-size: 30px;
+    font: bold;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+.TRS{
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    right: 20px;
+    bottom: 27px;
+    font: bold;
+
+
+}
+.RS img{
+    width: 75px;
+    height: 75px;
+}
+
+.col-3 {
+    float: left;
+    position: relative;
+    color: #c6baa2;
+    font-family: sans-serif;
+    margin-left: 5%;
+    width: 30%;
+    text-align: left;
+
+}
+
+.IE img{
+    width: 675px;
+    height: 380px;
+    float: left;
+
+}
+.TE{
+    
+    font-size: 35px;
+    text-align: center !important;
+    font: bold; 
+    margin-top: 1px;    
+}
+.me{
+    font-size: 45px;
+    text-align: center;
+    font: bold; 
+}
+.ID img{
+    width: 675px;
+    height: 380px;
+    float: right;
+    margin-top: 1px;
+
+
+}
+.TD{
+    
+    font-size: 30px;
+    text-align: center !important;
+    font: bold;   
+}
+.TC{
+    font-size: 20px;
+    color: rgb(97, 90, 90);
+}
+
+.M3{
+    width: 25%;
+    float: left;
+    position: relative;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.M3 img{
+    margin-top: 15px;
+    width: 300px;
+    height: 250px;
+}
+
+.TM3{
+    font-size: 20px; 
+    margin-left: 20px;
+}
+
+
+
+.mapinha img{
+    width: 425px !important;
+    height: 289px !important;
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+
+}
+.ende{
+    
+    font-size: 35px;
+    text-align: center !important;
+    font-family: sans-serif;   
+}
+
+.M5{
+    
+    width: 25%;
+    float: left;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.M5 img{
+    width: 300px;
+    height: 250px;
+
+}
+
+.TM5{
+    font-size: 20px; 
+    margin-left: 20px;
+}
+
+.Blanco{
+    color: white;
+}
+
+
+
+/* arquivo style.css */
+
+/* estilo geral do site */
+* {
+    margin: 0; /* remove as margens padrão */
+    padding: 0; /* remove os espaços internos padrão */
+    box-sizing: border-box; /* define o tamanho dos elementos incluindo as bordas e os espaços internos */
+}
+
+.NN img{
+
+    margin: 0px auto;
+    width: 550px !important;
+    height: 310px !important; 
+    float:right;
+
+    
+}
+
+.ImgTopo{
+    width:100%;
+}
+
+.link a{
+    text-decoration: none;
+    color: #c6baa2;
+
+}
+
+.TQS{
+    font-family: sans-serif; 
+    margin-left: 45%;
+    text-align: left;
+    margin-right: 5%;
+    font-size:large;
+    margin-top: 2%;
+    
+}
+
+.QS img{
+    float:left;
+    width: 550px;
+    height: 310px;
+}
